@@ -134,9 +134,14 @@
 .well img {
   border-radius: 75%;
 }
-/* For experimenting to add space between columns while keeping
-column integrity */
-.colSpace {
-  margin:0px 10px ;
-  padding:10px;
+
+.well p {
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.well ul {
+  width: 40%;
+  margin:0 auto;
+  text-align: left;
 }
