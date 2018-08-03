@@ -70,13 +70,15 @@
   margin-bottom: 25px;
   color: #fefefe;
   font-size: 17px;
-  font-family: europa, serif;
+  font-family: Eurostile, serif;
 }
 
 #aboutMe ul {
-  width: 40%;
+  width: 30%;
   margin:0 auto;
   text-align: left;
+  font-family: Europa, serif;
+  font-size: 16px;
 }
 
 .hidden {
