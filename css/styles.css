@@ -3,6 +3,13 @@
   background-color: white;
 }
 
+.container-fluid {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .jumbotron h1 {
   font-family: Eurostile, sans-serif;
 }
@@ -63,9 +70,10 @@
   margin-bottom: 25px;
   color: #fefefe;
   font-size: 17px;
+  font-family: europa, serif;
 }
 
-#aboutMe ol {
+#aboutMe ul {
   width: 40%;
   margin:0 auto;
   text-align: left;
@@ -87,4 +95,48 @@
 .jumbotron img {
   border-radius: 50%;
   margin-top: 40px;
+}
+
+.myProjects {
+  background-color: green;
+}
+
+.myProjects h2 {
+  font-size: 35px;
+  padding-top: 70px;
+  font-weight: bold;
+  font-family: Eurostile, sans-serif;
+  text-align: center;
+}
+
+.projectBox {
+  font-family: europa, serif;
+  border: 1px solid black;
+}
+
+.wellSize {
+  padding:0;
+  text-align: center;
+}
+
+#wikiRebuild {
+  background-image: url(../img/wikiRebuild.jpg);
+  background-size: 400px 250px;
+}
+
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:  flex;
+}
+
+.well img {
+  border-radius: 75%;
+}
+/* For experimenting to add space between columns while keeping
+column integrity */
+.colSpace {
+  margin:0px 10px ;
+  padding:10px;
 }
