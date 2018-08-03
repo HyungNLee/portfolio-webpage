@@ -1,4 +1,13 @@
 <html>
+<!-- Javascript used to hide/unhide div elements when link is clicked -->
+<script type="text/javascript">
+  function unhide(divID) {
+    var item = document.getElementById(divID);
+    if (item) {
+      item.className=(item.className=='hidden')?'unhidden':'hidden';
+    }
+  }
+</script>
   <head>
     <title>Hyung Lee's Coding Portfolio</title>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
@@ -8,14 +17,14 @@
     <div class="container-fluid">
       <!-- Start Header -->
       <div class="jumbotron" id="jumbotronHeader">
-        <h1>Aspiring Programmer</h1>
+        <h1><strong>Aspiring Programmer</strong></h1>
         <p>Learning to code and loving the journey.</p>
       </div>
       <!-- End Header -->
       <!-- Start 'About Me Section' -->
       <!-- Merged 'About Me', background, and current interests into this section -->
       <div class="aboutMeBox">
-        <h2>Hello, I'm Ryan. Nice to meet you.</h2>
+        <h2><em>Hello, I'm Ryan. Nice to meet you.</em></h2>
         <p>
           Through this portfolio I want to take you through my journey from
           starting as a beginning novice to my goal as a full fledged programmer.
@@ -31,6 +40,14 @@
           it's my dream to design an open-world game such as the Elder Scrolls
           series.
         </p>
+        <h3 id="aboutMeLink"><a href="javascript:unhide('aboutMe');">More About Me</a></h3>
+        <div id="aboutMe" class="hidden">
+          <ol type="I">
+            <li>Name: Ryan Lee</li>
+            <li>Education: Bellevue College</li>
+            <li>E-mail: <a href="mailto:hyungnaelee@gmail.com">Hyungnaelee@gmail.com</a></li>
+          </ol>
+        </div>
       </div>
     </div>
   </body>
