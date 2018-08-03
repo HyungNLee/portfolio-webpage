@@ -98,7 +98,6 @@
 }
 
 .myProjects {
-  background-color: green;
 }
 
 .myProjects h2 {
@@ -111,17 +110,12 @@
 
 .projectBox {
   font-family: europa, serif;
-  border: 1px solid black;
+  max-width: 292.5px;
 }
 
 .wellSize {
   padding:0;
   text-align: center;
-}
-
-#wikiRebuild {
-  background-image: url(../img/wikiRebuild.jpg);
-  background-size: 400px 250px;
 }
 
 .row-eq-height {
@@ -144,4 +138,21 @@
   width: 40%;
   margin:0 auto;
   text-align: left;
+}
+
+.myProjects h2 {
+  margin-bottom: 20px;
+}
+
+.footerText {
+  font-family: europa, sans-serif;
+  font-size: 15px;
+  text-align: right;
+}
+
+.emailIcon {
+  width: 35px;
+  float:right;
+  margin-left: 10px;
+  padding-bottom: 10px;
 }
