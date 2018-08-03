@@ -1,5 +1,6 @@
 #jumbotronHeader {
   text-align: center;
+  background-color: white;
 }
 
 #aboutMeTextEnd {
@@ -8,8 +9,8 @@
 
 .aboutMeBox {
   width: 100%;
-  background-color: #40d6eb;
-  border: 1px solid black;
+  background-color: #0081e7;
+  border: 1px solid #0081e7;
 }
 
 .aboutMeBox h2 {
@@ -46,6 +47,7 @@
   margin-right: auto;
   margin-bottom: 25px;
   color: #fefefe;
+  font-size: 17px;
 }
 
 #aboutMe ol {
@@ -60,4 +62,14 @@
 
 .unhidden {
   display:block;
+}
+
+.aboutMeBox a {
+  color:lightgrey;
+  text-decoration: underline;
+}
+
+.jumbotron img {
+  border-radius: 50%;
+  margin-top: 40px;
 }
