@@ -3,6 +3,15 @@
   background-color: white;
 }
 
+.jumbotron h1 {
+  font-family: Eurostile, sans-serif;
+}
+
+.jumbotron p {
+  font-family: Europa, serif;
+  font-size: 22px;
+}
+
 #aboutMeTextEnd {
     margin-bottom: 100px;
 }
@@ -21,15 +30,21 @@
   margin-right: auto;
   text-align: center;
   color: #fefefe;
+  font-family: Eurostile, sans-serif;
+  font-size: 32px;
+  font-weight: bold;
 }
 
 .aboutMeBox p {
-  max-width: 700px;
+  max-width: 800px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 25px;
   text-align: center;
   color: #fefefe;
+  font-family: europa, serif;
+  font-size: 20px;
+  line-height: 30px;
 }
 
 #aboutMe {
